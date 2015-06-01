@@ -6,12 +6,16 @@ Izhikevich-based models of CA1 pyramidal cells, with parameters constrained base
 
 #### Brian version of model
 
+This model was originally developed in the [Brian simulator](http://briansimulator.org/):
+
 ![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/master/Brian/cells.png)
 
-[More details on Brian model](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/Brian)
+More details on Brian version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/Brian).
 
 #### NeuroML2/LEMS version of model
 
+The model has been converted to NeuroML2/LEMS:
+
 ![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/master/NeuroML2/cells.png)
 
-[More details on NeuroML2/LEMS model](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/NeuroML2)
+More details on the NeuroML2/LEMS version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/NeuroML2).
