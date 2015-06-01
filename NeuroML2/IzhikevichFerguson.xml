@@ -57,6 +57,7 @@ Already defined...
             <DerivedVariable name="iMemb" dimension="current" exposure="iMemb" value="k * (v-vr) * (v-vt) + iSyn - u"/>
             
             ConditionalDerivedVariable not seen from DerivedVariable?
+            See https://github.com/LEMS/jLEMS/issues/68
             -->
             
             <ConditionalDerivedVariable name="k" exposure="k" dimension="conductance_per_voltage">
