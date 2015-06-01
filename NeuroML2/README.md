@@ -20,7 +20,21 @@ A LEMS file ([LEMS_TwoCells.xml](https://github.com/OpenSourceBrain/FergusonEtAl
                             vpeak = "22.6 mV" c = "-65.8 mV" klow = "0.1 nS_per_mV" khigh = "3.3 nS_per_mV"
                             a = "0.0012 per_ms" d = "10 pA" vt = "-57.0 mV" b = "3 nS"/>
                             
-  applies currents as specified in the Python scripts and runs a simulation with the cells:
+applies currents as specified in the Python scripts and runs a simulation with the cells:
+  
+![](https://raw.githubusercontent.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/master/NeuroML2/cells.png)
+  
+This model can be run locally using [jNeuroML](https://github.com/NeuroML/jNeuroML):
+  
+    git clone https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell.git # Clone GitHub repository
+    cd FergusonEtAl2014-CA1PyrCell/NeuroML2
+    jnml LEMS_TwoCells.xml
+    
+or using [pyNeuroML](https://github.com/NeuroML/pyNeuroML):
+  
+    git clone https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell.git # Clone GitHub repository
+    cd FergusonEtAl2014-CA1PyrCell/NeuroML2
+    pynml LEMS_TwoCells.xml
   
   
 
