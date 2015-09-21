@@ -60,8 +60,10 @@ net.run(duration)
 
 
 ####make voltage plot####
-plot(PYR_v.times,PYR_v[0]/mV)
-xlabel("Time (s)")
-ylabel("Membrane Potential (mV)")
-title('Strongly adapting PYR model with %d pA input'%(mean_Iapp))
-show()
+import sys
+if not '-nogui' in sys.argv:
+    plot(PYR_v.times,PYR_v[0]/mV)
+    xlabel("Time (s)")
+    ylabel("Membrane Potential (mV)")
+    title('Strongly adapting PYR model with %d pA input'%(mean_Iapp))
+    show()
