@@ -2,3 +2,27 @@
 
 target: LEMS_TwoCells.xml
 engine: jNeuroML_NEURON
+mep: ../Brian/.test.mep
+experiments:
+  weak:
+    observables:
+      spike times:
+        file: 
+          path: TwoCells.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0
+  strong:
+    observables:
+      spike times:
+        file: 
+          path: TwoCells.dat
+          columns: [0,2]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0

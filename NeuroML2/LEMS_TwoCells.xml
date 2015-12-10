@@ -51,6 +51,11 @@
     <Display id="d2" title="Strongly adapting PYR model with 100 pA input" timeScale="1ms" xmin="-100" xmax="1100" ymin="-80" ymax="40">
         <Line id ="stronglyAdapting v" quantity="strongpop[0]/v" scale="1mV"  color="#0000ff" timeScale="1ms"/>
     </Display>
+    
+    <OutputFile id="of0" fileName="TwoCells.dat">
+        <OutputColumn id="w" quantity="weakpop[0]/v" />
+        <OutputColumn id="s" quantity="strongpop[0]/v" />
+    </OutputFile>
       
 </Simulation>
 
