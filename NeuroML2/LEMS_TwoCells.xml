@@ -42,7 +42,7 @@
 <!-- End of NeuroML2 content -->
         
 
-<Simulation id="sim1" length="1000ms" step="0.02ms" target="net1">
+<Simulation id="sim1" length="1000ms" step="0.002ms" target="net1">
 
     <Display id="d1" title="Weakly adapting PYR model 1 with 100 pA input" timeScale="1ms" xmin="-100" xmax="1100" ymin="-80" ymax="40">
         <Line id ="weaklyAdapting v" quantity="weakpop[0]/v" scale="1mV"  color="#0000ff" timeScale="1ms"/>

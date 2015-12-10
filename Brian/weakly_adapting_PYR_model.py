@@ -4,7 +4,7 @@ Weakly adapting PYR model
 '''
 from brian import *
 
-defaultclock.dt = 0.02*ms
+defaultclock.dt = 0.002*ms
 
 #Weakly adapting PYR parameters for model 1  
 C=300 * pF
@@ -43,7 +43,8 @@ PYR.Iext = mean_Iapp*pA
 PYR.Ishift = Ishift_raw*pA
 
 #set initial conditions for each neuron
-PYR.v = rand(len(PYR))*0.01 -0.065
+##PYR.v = rand(len(PYR))*0.01 -0.065 # Removing random init in single cell case
+PYR.v = -0.065
 
 #record all spike times for the neuron group
 PYR_v = StateMonitor(PYR, 'v', record=True)
@@ -68,3 +69,16 @@ if not '-nogui' in sys.argv:
     title('Weakly adapting PYR model 1 with %d pA input'%(mean_Iapp))
     #title('Weakly adapting PYR model 2 with %d pA input'%(mean_Iapp))  
     show()
+    
+####save trace to file####
+save=True
+if save:
+    filename = 'Weak.v.dat'
+    outfile = open(filename,'w')
+    t = PYR_v.times.tolist()
+    v = PYR_v[0].tolist()
+    print("Saving results to: %s"%filename)
+    for i in range(len(t)):
+        line = '%s\t%s\n'%(t[i], v[i])
+        outfile.write(line)
+    outfile.close()

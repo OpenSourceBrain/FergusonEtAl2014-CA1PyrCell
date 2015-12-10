@@ -1,6 +1,7 @@
 NeuroML2/*.dat
 NeuroML2/*.mod
 NeuroML2/*nrn.py
+Brian/*.dat
 x86_64
 *~
 

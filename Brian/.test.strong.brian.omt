@@ -2,3 +2,16 @@
 
 target: strongly_adapting_PYR_model.py
 engine: Brian
+mep: .test.mep
+experiments:
+  strong:
+    observables:
+      spike times:
+        file: 
+          path: Strong.v.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0.00296386366227  # Precise agreement when dt=0.002
