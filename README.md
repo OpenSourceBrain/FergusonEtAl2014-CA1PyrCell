@@ -12,7 +12,7 @@ This model was originally developed in the [Brian simulator](http://briansimulat
 
 More details on Brian version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/Brian).
 
-#### NeuroML2/LEMS version of model
+#### NeuroML2/LEMS version of model   
 
 The model has been converted to NeuroML2/LEMS:
 
