@@ -53,8 +53,8 @@ PYR_v = StateMonitor(PYR, 'v', record=True)
 duration = 1 * second  # 0.01 * second
 
 #create arrays to record network output
-times = zeros(duration/defaultclock.dt +1)
-voltage = zeros(duration/defaultclock.dt +1)
+times = zeros(int(duration/defaultclock.dt) +1)
+voltage = zeros(int(duration/defaultclock.dt) +1)
 
 net =Network(PYR,PYR_v) 
 net.run(duration)
