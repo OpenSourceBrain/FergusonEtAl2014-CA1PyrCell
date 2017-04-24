@@ -1,11 +1,7 @@
-<Lems xmlns="http://www.neuroml.org/lems/0.6"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.neuroml.org/lems/0.6 https://raw.github.com/LEMS/LEMS/master/Schemas/LEMS/LEMS_v0.6.xsd">
+<Lems>
 
 <!--
-
     Definition in LEMS of a new ComponentType for the modified Izhikevich model in Ferguson KA, Huh CY, Amilhon B, Williams S, Skinner FK (2014)
-
 -->
 
 <!--
@@ -83,5 +79,14 @@ Already defined...
 
     </ComponentType>
 
+    <!-- Some example cells -->
+
+    <izhikevichFergusonCell id="weaklyAdapting" v0 = "-65mV" C="300 pF" vr = "-61.8 mV"
+                            vpeak = "22.6 mV" c = "-65.8 mV" klow = "0.5 nS_per_mV" khigh = "3.3 nS_per_mV"
+                            a = "0.001 per_ms" d = "5 pA" vt = "-57.0 mV" b = "3 nS"/>
+
+    <izhikevichFergusonCell id="stronglyAdapting" v0 = "-65mV" C="115 pF" vr = "-61.8 mV"
+                            vpeak = "22.6 mV" c = "-65.8 mV" klow = "0.1 nS_per_mV" khigh = "3.3 nS_per_mV"
+                            a = "0.0012 per_ms" d = "10 pA" vt = "-57.0 mV" b = "3 nS"/>
 
 </Lems>
