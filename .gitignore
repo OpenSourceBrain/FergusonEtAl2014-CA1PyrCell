@@ -4,5 +4,8 @@ NeuroML2/*nrn.py
 Brian/*.dat
 x86_64
 *~
-
-
+/NeuroML2/LEMS_TwoCells_brian2.py
+/NeuroML2/LEMS_TwoCells_netpyne.py
+/NeuroML2/LEMS_TwoCells_netpyne.py_main.json
+/NeuroML2/NET_TwoCells.net.nml
+/NeuroML2/NET_net1.net.nml
