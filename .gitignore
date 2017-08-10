@@ -9,3 +9,8 @@ x86_64
 /NeuroML2/LEMS_TwoCells_netpyne.py_main.json
 /NeuroML2/NET_TwoCells.net.nml
 /NeuroML2/NET_net1.net.nml
+/NeuroML2/LEMS_TwoCells_pynn.py
+/NeuroML2/*.json
+/NeuroML2/*_inputdefinition.py
+/NeuroML2/*.pyc
+/NeuroML2/*_celldefinition.py
