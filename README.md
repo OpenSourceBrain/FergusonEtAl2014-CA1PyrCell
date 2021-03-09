@@ -20,4 +20,4 @@ The model has been converted to NeuroML2/LEMS:
 
 More details on the NeuroML2/LEMS version of this model [here](https://github.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell/tree/master/NeuroML2).
 
-[![Build Status](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell.svg?branch=master)](https://travis-ci.org/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell)
+[![Build Status](https://travis-ci.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell.svg?branch=master)](https://travis-ci.com/OpenSourceBrain/FergusonEtAl2014-CA1PyrCell)
