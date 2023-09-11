@@ -2,7 +2,7 @@
 
 target: LEMS_TwoCells.xml
 engine: jNeuroML_PyNN_NEURON
-mep: ../Brian/.test.mep
+mep: ../Brian2/.test.mep
 experiments:
   weak:
     observables:
@@ -14,7 +14,7 @@ experiments:
         spike detection: 
           method: threshold
           threshold: 0
-        tolerance: 4.6536716411577824e-05
+        tolerance: 4.442131715554443e-05
   strong:
     observables:
       spike times:
@@ -25,4 +25,4 @@ experiments:
         spike detection: 
           method: threshold
           threshold: 0
-        tolerance: 0.0001213739531493712
+        tolerance: 6.425142500469086e-05

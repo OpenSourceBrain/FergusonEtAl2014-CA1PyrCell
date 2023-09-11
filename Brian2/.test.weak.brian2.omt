@@ -1,0 +1,17 @@
+# Script for running automated tests on OSB using Travis-CI, see https://github.com/OpenSourceBrain/osb-model-validation 
+
+target: weakly_adapting_PYR_model.py
+engine: Brian2
+mep: .test.mep
+experiments:
+  weak:
+    observables:
+      spike times:
+        file: 
+          path: Weak.v.dat
+          columns: [0,1]
+          scaling: [1000, 1000]
+        spike detection: 
+          method: threshold
+          threshold: 0
+        tolerance: 0
